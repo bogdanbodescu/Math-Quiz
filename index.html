@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Quiz</title>
+</head>
+<body>
+ 
+    <!-- TOP part-->
+<div class="intro py-3 bg-white text-center">
+  <div class="container">
+      <h2 class="text-primary display-3 my-4">
+          Quiz
+      </h2>
+  </div>  
+</div>
+
+<div class="result py-4 d-none bg-light text-center">
+    <div class="container lead">
+        <p>Your result is: <span class="text-primary display-4 p-3">0%</span>. Congratulations!</p>
+    </div>
+</div>
+
+<!-- quiz section // questions-->
+
+<div class="quiz py-4 bg-primary">
+    <div class="container">
+        <h2 class="my-5 text-white">
+            Questions
+        </h2>
+        <form class="quiz-form text-light">
+            <div class="my-5"></div>
+            <p class="lead font-weight-normal"> 1. Look at this series: 2, 1, (1/2), (1/4), ... What number should come next? </p>
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name = "q1" value = "A">
+                <label class ="form-check-label">1/3</label>
+            </div>
+
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name = "q1" value = "B">
+                <label class ="form-check-label">1/8</label>
+            </div>
+
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name = "q1" value = "C">
+                <label class ="form-check-label">2/8</label>
+            </div>
+
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name = "q1" value = "D">
+                <label class ="form-check-label">1/16</label>
+            </div>
+            <div class="text-center">
+                <input type="submit" class = "btn btn-light">
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+<script src="app.js"></script>
+</body>
+</html>
